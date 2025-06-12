@@ -169,4 +169,4 @@ In a perfect linear relationship, the points would lie on the line
 
 ---
 
-## 🐧 Case study: Multivariate and regression analysis on Resource Group dataset
+## 🐧 Case study: Multivariate and regression analysis in Steel manufacturing operation
