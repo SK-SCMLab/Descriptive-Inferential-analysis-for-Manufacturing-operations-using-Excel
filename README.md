@@ -170,3 +170,11 @@ In a perfect linear relationship, the points would lie on the line
 ---
 
 ## 🐧 Case study: Multivariate and regression analysis in Steel manufacturing operation
+### 🙊 Objectives
+- To study how multiple input factors affect the tensile strength of the steel
+
+
+---
+
+### 🐒 Interpretation
+1. *Situation: 
