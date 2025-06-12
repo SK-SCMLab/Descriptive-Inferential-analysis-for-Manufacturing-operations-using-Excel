@@ -31,4 +31,11 @@ Multi-variate anaylsis classifies variation sources into three major component t
     - Handles variations which occur over longer periods of time
     - Eg: Process drift, performance before and after breaks, seasonal and shift based differences, month-to-month closings and quarterly returns
 
+### 🐻 Steps to create Multi-variate chart
+Multi-variate chart shows the type of variation in the product and helps in identifying the root cause
+1. *Select process and characteristics*
+   - Select the process where 7 mm steel plates are manufactured with four resources
+   - Measure the thickness within a specified range of 6.95 mm to 7.05 mm
 
+2. *Decide sample size*
+   - Sample size is five 
