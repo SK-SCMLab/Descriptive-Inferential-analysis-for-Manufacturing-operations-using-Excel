@@ -182,5 +182,5 @@ In a perfect linear relationship, the points would lie on the line
    **Inference**: *Multi-variate analysis* || From the excel analysis, there exists:
                    1. No correlation between pressure and thickness
                    2. Weak negative correlation between temperature and thickness
-                   3. Weak positive correlation between speed and thickness
+                   3. No correlation between speed and thickness
    
