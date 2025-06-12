@@ -163,3 +163,8 @@ In a perfect linear relationship, the points would lie on the line
 - If data is sampled from a Normal distribution many times and a 95% confidence interval of the mean is calculated from each sample, about 95% of those intervals would include the true value of population mean
 
 ## 🙉 Prediction interval
+- Shows where the next sample data point is expected and given insight about the distribution of values
+- If data follows a normal distribution, collect a sample of data and calculate a 95% prediction interval. If this is done many times, the next value sampled will lie within the prediction interval in 95% of the sample
+- Strong correlation between variables does not imply they have a casual relationship
+
+---
