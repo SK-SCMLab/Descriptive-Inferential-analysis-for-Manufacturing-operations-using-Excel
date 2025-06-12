@@ -10,7 +10,7 @@ This repository showcases practical examples of using Microsoft Excel for multiv
 
 ---
 
-## 🐭 Multi-variate analysis
+## 🐭 Multi-variate analysis (~Regression analysis)
 Multi-variate analysis examines more than two variables simultaneously to understand complex relationships. It is used to:
 - Analyze variation in a process
 - Identifies investigation areas
@@ -173,7 +173,8 @@ In a perfect linear relationship, the points would lie on the line
 ### 🙊 Objectives
 - To study how multiple input factors affect the tensile strength of the steel
 - To analyze the correlation between critical process variables and the resulting output thickness of steel sheets in a hot rolling process
-
+- To evaluate how accurately a linear regression model predicts output thickness based on the speed and furnace temperature in hot rolling process by performing residual analysis
+- To estimate the confidence interval for the mean predicted output thickness and the prediction interval for the individual future thickness measurement based on rolling speed and furnace temperature
 
 ---
 
@@ -223,4 +224,19 @@ In a perfect linear relationship, the points would lie on the line
                     2. Parameters that show negative correlation with thickness represents inversely proportionate relation with one another
                     3. These insights helps in process tuning and quality improvement
 
-4. *Situation: 
+4. *Situation: The Planning Manager wants to evaluate the quality of the regression model created by the team to predict sheet thickness from rolling speed and furnace temperature*
+
+   **Inference**: *Residual analysis* || From the excel analysis, the residuals are way far from zero. It indicates that model's prediction differ significantly from the actual values.
+
+   **Conclusion**: 1. Poor model fit (wrong variables, missing variables)
+                   2. Non-linear relationship
+                   3. Outliers or noise in the data
+                   4. Multicollinearity among input variables
+                   5. Omitted influential variables
+
+5. *Situation: Based on the process parameters, the Planning Manager wants to predict hot rolled sheet thickness to estimate confidence and prediction accuracy*
+
+   **Inference**: *CI & PI* || From the excel analysis, PI is always wider than CI because it includes individual variation
+
+---
+
