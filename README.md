@@ -85,5 +85,18 @@ Correlation measures the linear association between the dependent variable or ou
 
 ---
 
+## 🦁 Regression Analysis (R²)
+- Regression estimates how one variable (dependent) changes with respect to one or more independent variables
+- Correlation provides direction of movement of the dependent variable Y as independent variable X changes
+- Does not provide the extent of the movement of Y as X changes
+- Regression analysis is an approach for estimating the extent of change in a dependent variable when an independent variable changes
+- Regression analysis generates a line on scatter plot that quantifies the relationship between X & Y
+- A regression equation describes the line
+
+      Note: 1. If a high percentage of variability in Y (R² > 70%) is explained by changes in X
+            2. Predict future values of Y given X, and X given Y
+            3. Regress Y on one or more X's simultaneously
+
+### 🐮 Key concepts of regression
 
 
