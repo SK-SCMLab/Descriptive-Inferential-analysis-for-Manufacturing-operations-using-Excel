@@ -240,3 +240,25 @@ In a perfect linear relationship, the points would lie on the line
 
 ---
 
+## 🐦 Repository structure
+Resource_sample dataset
+        -ResourceGroups
+
+---
+
+## 🐦‍⬛ Excel functionalities used
+- CORREL()
+- RAND()
+- RANDBETWEEN()
+- SQRT()
+- DATA ANALYSIS > REGRESSION
+
+---
+
+## 🐤 Requirements
+- Microsoft Excel 2016 or later
+- Business statistics, Manufacturing operations basics
+
+---
+
+*"Facts are stubborn, but statistics are more pliable" - Mark Twain*
