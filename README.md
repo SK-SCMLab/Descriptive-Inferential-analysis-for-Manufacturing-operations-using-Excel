@@ -98,5 +98,21 @@ Correlation measures the linear association between the dependent variable or ou
             3. Regress Y on one or more X's simultaneously
 
 ### 🐮 Key concepts of regression
+- The output of regression is a transfer function f(x)
+- The transfer function may not be the best function to control Y, as there are chances of a low-level of correlation between Y & X
+- The main focus of regression is to discover whether a significant statistical relationship exists between Y & particular X by looking at p-values
+- Based on regression, one can determine the vital X, and eliminate the unimportant X's
+
+      The Simple Linear Regression (SLR) should be used as a statistical validation tool in the beginning of the analysis phase
+                  SLR => Y = A + BX ± C
+                          Y -> Dependent variable/output/response
+                          X -> Independent variable/predictor
+                          A -> Intercept of fitted line on Y-axis
+                          B -> Regression coefficient/slope of the fitted line
+                          C -> Error in the regression model
+
+#### Least squares Method in SLR
+                    SSE = ∑i=1^n (yᵢ-ŷᵢ)² || Error/Residuals
+In a perfect linear relationship, the points would lie on the line
 
 
