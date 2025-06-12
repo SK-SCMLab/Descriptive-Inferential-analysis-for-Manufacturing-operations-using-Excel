@@ -179,4 +179,8 @@ In a perfect linear relationship, the points would lie on the line
 ### 🐒 Interpretation
 1. *Situation: The manufacturing plant operates 65 resources (machines) to produce steel. The Production Planning Manager want to perform analysis to find out the factors that are affecting the output strength of the steel*
 
-   **Inference**: 
+   **Inference**: *Multi-variate analysis* || From the excel analysis, there exists:
+                   1. High negative correlation between pressure and thickness
+                   2. Low negative correlation between temperature and thickness
+                   3. Low positive correlation between speed and thickness
+   
