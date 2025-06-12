@@ -172,6 +172,7 @@ In a perfect linear relationship, the points would lie on the line
 ## 🐧 Case study: Multivariate and regression analysis in Steel manufacturing operation
 ### 🙊 Objectives
 - To study how multiple input factors affect the tensile strength of the steel
+- To analyze the correlation between critical process variables and the resulting output thickness of steel sheets in a hot rolling process
 
 
 ---
@@ -211,7 +212,15 @@ In a perfect linear relationship, the points would lie on the line
    |**Lower/Upper 95%**|Confidence interval for coefficient. If it crosses zero, the variable may not be significant|
 
    **Conclusion**: 1. Furnace temperature and Speed show no influence
-                   2. Pressure has the brief impact comparatively on final thickness of the steel
+                   2. Hydraulic Pressure has the brief impact comparatively on final thickness of the steel
                    3. The regression model is not strong enough to be statistically significant at 95% confidence. Hence, the model may be acceptable at 90% confidence
 
-3. *Situation: 
+3. *Situation: The Production Planning Manager wants to understand the relationships between the variables that are used in the master data for operation purposes*
+
+   **Inference**: *Correlation Analysis* || From the excel analysis, there existed only weak positive or weak negative correlation
+
+    **Conclusion**: 1. Comparatively, furnace temperature has the strongest impact on the sheet thickness
+                    2. Parameters that show negative correlation with thickness represents inversely proportionate relation with one another
+                    3. These insights helps in process tuning and quality improvement
+
+4. *Situation: 
