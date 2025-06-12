@@ -9,3 +9,6 @@ This repository showcases practical examples of using Microsoft Excel for multiv
 6. Prediction interval
 
 ---
+
+## 🐭 Multi-variate analysis
+Multi-variate analysis examines more than two variables simultaneously to understand
