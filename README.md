@@ -115,4 +115,12 @@ Correlation measures the linear association between the dependent variable or ou
                     SSE = ∑i=1^n (yᵢ-ŷᵢ)² || Error/Residuals
 In a perfect linear relationship, the points would lie on the line
 
+---
+
+## 🐷 Residual Analysis
+- Residuals are differences between observed and predicted values. Analyzing them helps to validate the regression model
+- A residual plot is a graph that is used to examine the goodness-of-fit in regression. The different residual plots for Y are:
+                  1. Normal Probability plot of residuals are used to verify the assumption that the residuals are normally distributed
+                  2. Residual versus fit is used 
+
 
