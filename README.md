@@ -61,7 +61,9 @@ Multi-variate chart shows the type of variation in the product and helps in iden
 - It is denoted by 'r' or "Pearson's coefficient of correlation
 
 |-1| Movement in both variables is inverse|
+--------------------------------------------
 |0| No correlation between two variables|
+-------------------------------------------
 |+1| Movement in both variables is same|
-
+-------------------------------------------
 
