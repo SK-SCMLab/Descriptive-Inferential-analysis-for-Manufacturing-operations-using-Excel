@@ -38,4 +38,30 @@ Multi-variate chart shows the type of variation in the product and helps in iden
    - Measure the thickness within a specified range of 6.95 mm to 7.05 mm
 
 2. *Decide sample size*
-   - Sample size is five 
+   - Assume a sample size is five units from each resource
+   - Calibrate the frequency of data collection for every two hours starting from 8 AM until 2 PM
+
+3. *Create a tabulation sheet*
+   - The tabulation sheet with data records contains the columns with time, equipment, number and thickness as headers
+
+4. *Plot the chart*
+   - Plot the chart with time on X-axis and the plate thickness on Y-axis
+
+5. *Link the observed values*
+   - The observed values are linked by appropriate lines
+
+---
+
+## 🐼 Correlation
+- Correlation quantifies the strength and direction of the relationship between two variables
+- It represents the assoication or relationship between variables
+- The coefficient of the correlation shows the strength of hte relationship between variables X & Y
+- Correlation is used to find the behavior of Y when there is a change in the value of one of the many X-values
+- Correlation helps to predict the direction of movement in the values of Y when X changes
+- It is denoted by 'r' or "Pearson's coefficient of correlation
+
+|-1| Movement in both variables is inverse|
+|0| No correlation between two variables|
+|+1| Movement in both variables is same|
+
+
