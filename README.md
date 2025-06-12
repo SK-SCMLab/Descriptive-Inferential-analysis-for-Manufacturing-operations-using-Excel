@@ -134,4 +134,32 @@ In a perfect linear relationship, the points would lie on the line
   7. Prioritization of X's can be done through the SLR equation; run separate regressions on X with each Y
   8. If an X does not explain variation in Y, it should not be explored further
 
+### 🐽 Difference between correlation and causation
+- A regression equation denotes only a relationship between two variables
+- A change in one variable may not cause change in the other
+- The change in the variable could be caused due to the third factor
 
+---
+
+## 🐸 Multiple regression
+- If a new variable X₂ is added to the R² model, the impact of X₁ and X₂ on Y gets tested
+
+                          Y = b₀ + b₁x₁ + b₂x₂ + ..... bₙxₙ
+                          where x₁, x₂, ...... xₙ are multiple independent variables
+- Multiple regression allows us to determine a linear relationship between multiple variables
+
+### 🐵 Multiple Linear regression
+- The value of R² changes with the introduction of a new variable
+- The resulting value of R² is known as R² adjusted
+- The model can be used if 'R² adjusted' value is greater than 70%
+
+                  Any regression model that is not linear is considered non-linear
+                  Other non-linear regression models are Cubic, Quadratic, Power, Logarithmic and Logistic
+
+---
+
+## 🙈 Confidence interval
+- Indicates how well the mean was determined by the likely location of the true population parameter
+- If data is sampled from a Normal distribution many times and a 95% confidence interval of the mean is calculated from each sample, about 95% of those intervals would include the true value of population mean
+
+## 🙉 Prediction interval
