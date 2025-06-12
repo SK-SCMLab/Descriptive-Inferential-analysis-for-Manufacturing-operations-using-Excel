@@ -66,5 +66,24 @@ Multi-variate chart shows the type of variation in the product and helps in iden
 |0| No correlation between the two variables |
 |+1| Movement in both variables is same |
 
+### 🐻‍❄️ Correlation levels
+Correlation measures the linear association between the dependent variable or output variable Y and one independent variable X
+
+### 🐨 Correlation coefficient and p-value
+- The strength of the relationship between two variables is r
+- The significance of the relationship is p
+     => if p < α
+
+                  H₀: r = 0
+                  H₁: r ≠ 0
+
+### 🐯 Caution with Correlation
+- Be careful with claims of casuality
+- Exercise caution while correlating averaged data
+- Check for outliers
+- Beware of non-linear relationships
+
+---
+
 
 
