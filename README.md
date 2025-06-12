@@ -184,6 +184,32 @@ In a perfect linear relationship, the points would lie on the line
                    2. Weak negative correlation between temperature and thickness
                    3. No correlation between speed and thickness
 
+    **SUMMARY OUTPUT TABLE SIGNIFICANCE (from Excel)**
+   |*Term*|*Significance*|
+   |------|--------------|
+   |**Multiple R** | Correlation coefficient between observed and predicted values. Ranges from -1 to +1. Closer to ±1 means stronger relationship |
+   |**R Square** | Proportion of the variance in the dependent variable explained by the model (0 to 1). Higher is better |
+   |**Adjusted R Square** | Like R², but adjusts the number of predictors. Use this when comparing models with different number of variables |
+   |**Standard Error** | Standard deviation of residuals (error). Lower indicates better fit |
+   |**Observations** | Number of data points used in the regression |
+
+   |*Term*|*Significance*|
+   |------|--------------|
+   |**df**| Degrees of freedom for regression, residual, and total|
+   |**SS**| Sum of Squares - measures variability|
+   |**MS**| Mean Square = SS/df|
+   |**F**| F-statistic. Compares model with no predictors. Higher F = more significant model|
+   |**Significance F**|P-value for overall regression. If **< 0.05**, model is statistically significant|
+
+   |*Column*|*Significance*|
+   |--------|--------------|
+   |**Intercept**|Predicted value when all X's = 0|
+   |**X Variable(s)**|Coefficients for each independent variable|
+   |**Standard Error**|Uncertainty in coefficient estimate|
+   |**t Stat**| Coefficient/std. error. Used to test significance|
+   |**P-value**|If <0.05, variable is statistically significant|
+   |**Lower/Upper 95%**|Confidence interval for coefficient. If it crosses zero, the variable may not be significant|
+
    **Conclusion**: 1. Temperature and Speed show no influence
                    2. Pressure has the brief impact comparatively on final thickness of the steel
                    3. The regression model is not strong enough to be statistically significant at 95% confidence. Hence, the model may be acceptable at 90% confidence
