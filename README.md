@@ -210,7 +210,7 @@ In a perfect linear relationship, the points would lie on the line
    |**P-value**|If <0.05, variable is statistically significant|
    |**Lower/Upper 95%**|Confidence interval for coefficient. If it crosses zero, the variable may not be significant|
 
-   **Conclusion**: 1. Temperature and Speed show no influence
+   **Conclusion**: 1. Furnace temperature and Speed show no influence
                    2. Pressure has the brief impact comparatively on final thickness of the steel
                    3. The regression model is not strong enough to be statistically significant at 95% confidence. Hence, the model may be acceptable at 90% confidence
 
