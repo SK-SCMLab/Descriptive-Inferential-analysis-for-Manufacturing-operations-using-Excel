@@ -112,7 +112,7 @@ Correlation measures the linear association between the dependent variable or ou
                           C -> Error in the regression model
 
 #### Least squares Method in SLR
-                    SSE = ∑i=1^n (yᵢ-ŷᵢ)² || Error/Residuals
+                    Sum of Squared Errors (SSE) = ∑i=1^n (yᵢ-ŷᵢ)² || Error/Residuals
 In a perfect linear relationship, the points would lie on the line
 
 ---
@@ -120,7 +120,18 @@ In a perfect linear relationship, the points would lie on the line
 ## 🐷 Residual Analysis
 - Residuals are differences between observed and predicted values. Analyzing them helps to validate the regression model
 - A residual plot is a graph that is used to examine the goodness-of-fit in regression. The different residual plots for Y are:
-                  1. Normal Probability plot of residuals are used to verify the assumption that the residuals are normally distributed
-                  2. Residual versus fit is used 
+  1. Normal Probability plot of residuals are used to verify the assumption that the residuals are normally distributed
+  2. Residual versus fit is used to verify the assumption that the residuals have a constant variation
+  3. Histogram of the residuals is used to determine or whether outliers exist in the data
+  4. Residuals versus order of data is used to verify the assumption that the residuals are uncorrelated with each other
+  5. The residuals between the actual value and predicted value given an indication of how good the model is:
+
+                              Total Sum of Squares (SST) = SSE + Sum of Squares due to Regression (SSR)
+                                                  SSR = SST - SSE
+                                                   R² = SSR/SST
+                  To get the sense of the error in the fitted model, one must calculate the value of Y for a given data using the fitted equation
+  6. To check for error, take two observations of Y at the same X
+  7. Prioritization of X's can be done through the SLR equation; run separate regressions on X with each Y
+  8. If an X does not explain variation in Y, it should not be explored further
 
 
