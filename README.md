@@ -168,3 +168,5 @@ In a perfect linear relationship, the points would lie on the line
 - Strong correlation between variables does not imply they have a casual relationship
 
 ---
+
+## 🐧 Case study: Multivariate and regression analysis on Resource Group dataset
