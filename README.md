@@ -60,7 +60,7 @@ Multi-variate chart shows the type of variation in the product and helps in iden
 - Correlation helps to predict the direction of movement in the values of Y when X changes
 - It is denoted by 'r' or "Pearson's coefficient of correlation
 
-|*Value*|*Significance|
+|*Value*|*Significance*|
 |--------|-------------|
 |-1| Movement in both variables is inverse |
 |0| No correlation between the two variables |
