@@ -183,4 +183,8 @@ In a perfect linear relationship, the points would lie on the line
                    1. No correlation between pressure and thickness
                    2. Weak negative correlation between temperature and thickness
                    3. No correlation between speed and thickness
-   
+   **Conclusion**: 1. Temperature and Speed show no influence
+                   2. Pressure has the brief impact comparatively on final thickness of the steel
+                   3. The regression model is not strong enough to be statistically significant at 95% confidence. Hence, the model may be acceptable at 90% confidence
+
+2. *Situation: 
